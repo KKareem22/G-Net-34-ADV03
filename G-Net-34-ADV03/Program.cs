@@ -27,6 +27,31 @@
             //FormattedGrades.ForEach(x => Console.WriteLine(x));
 
             #endregion
+            #region Q02
+            //SortedList<int, string> Players = new();
+            //Players.Add(500, "Ahmed");
+            //Players.Add(200, "Sara");
+            //Players.Add(800, "Ali");
+            //Players.Add(350, "Mona");
+            //Helper.Print("Players", Players);
+            //Console.WriteLine($"The first element in sorted list ->{Players.First()}");
+            //Console.WriteLine($"The last element in sorted list ->{Players.Last()}");
+            //Console.WriteLine($"Is there any score equal (500)? {Players.ContainsKey(500)}");
+            //if(Players.ContainsKey(999))
+            //{
+            //    Console.WriteLine($"The player with score 999 is {Players[999]}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"There is no player with score 999");
+            //}
+            //Players.Remove(200);
+            //Helper.Print("Players after removing score 200", Players);
+            #endregion
+
+
+
+
         }
     }
 }
