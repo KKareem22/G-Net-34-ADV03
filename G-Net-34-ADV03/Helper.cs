@@ -39,5 +39,17 @@ namespace G_Net_34_ADV03
             Console.ResetColor();
             Console.WriteLine(new string('_', 30));
         }
+        public static void PrintStack<T>(string Name,Stack<T>s)
+        {
+            Console.WriteLine(new string('_', 30));
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"{Name} :");
+            foreach(var item in s)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ResetColor();
+            Console.WriteLine(new string('_', 30));
+        }
     }
 }

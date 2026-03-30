@@ -147,7 +147,31 @@
             //documents.TryDequeue(out string? result);
             //Console.WriteLine(result??"Null");// This will print "Null" because the queue is empty and TryDequeue returns false, setting result to null.
             #endregion
-
+            #region Q06
+            //Stack<string> BrowserHistory = new();
+            //BrowserHistory.Push("google.com");
+            //BrowserHistory.Push("github.com");
+            //BrowserHistory.Push("stackoverflow.com");
+            //BrowserHistory.Push("youtube.com");
+            //BrowserHistory.Push("claude.ai");
+            //Helper.PrintStack("Browser History", BrowserHistory);
+            //for(int i=0;i<3;i++)
+            //{
+            //    BrowserHistory.TryPop(out string? CurrentSite);
+            //    Console.WriteLine($"Going back from {CurrentSite}");
+            //}
+            //BrowserHistory.TryPeek(out string? CurrentPeekSite);
+            //Console.WriteLine($"\nCurrent site {CurrentPeekSite}");
+            //while(BrowserHistory.Count>0)
+            //{
+            //    BrowserHistory.TryPop(out string? site);
+                
+            //}
+            ////Now the stack is empty, let's try to pop again
+            ////BrowserHistory.Pop(); // This will throw an InvalidOperationException because the stack is empty
+            //bool popResult = BrowserHistory.TryPop(out string? result);
+            //Console.WriteLine($"\nTrying to pop from empty stack : {(popResult ? result : "Stack is empty")}");
+            #endregion
         }
     }
 }
