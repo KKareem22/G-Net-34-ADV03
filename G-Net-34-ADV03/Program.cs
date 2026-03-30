@@ -126,7 +126,27 @@
             //HashSet<int> subset = [1, 2];
             //Console.WriteLine($"Is subset a subset of SetA ? {subset.IsSubsetOf(SetA)}");
             #endregion
+            #region Q05
+            //Queue<string> documents = new(5);
+            //documents.Enqueue("Report.pdf");
+            //documents.Enqueue("Invoice.pdf");
+            //documents.Enqueue("Letter.docx");
+            //documents.Enqueue("Resume.pdf");
+            //documents.Enqueue("Photo.jpg");
+            //Helper.PrintQueue("Documents",documents);
 
+            //documents.TryPeek(out string? CurrentPeek);
+            //Console.WriteLine($"Peek :{CurrentPeek}");
+            //while(documents.Count>0)
+            //{
+            //    string doc = documents.Dequeue();
+            //    Console.WriteLine($"Processing document : {doc}");
+            //}
+            //Console.WriteLine();
+            ////documents.Dequeue();// This will throw an InvalidOperationException because the queue is empty
+            //documents.TryDequeue(out string? result);
+            //Console.WriteLine(result??"Null");// This will print "Null" because the queue is empty and TryDequeue returns false, setting result to null.
+            #endregion
 
         }
     }

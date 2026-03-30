@@ -26,5 +26,18 @@ namespace G_Net_34_ADV03
             Console.ResetColor();
             Console.WriteLine(new string('_', 30));
         }
+
+        public static void PrintQueue<T>(string Name,Queue<T>q)
+        {
+            Console.WriteLine(new string('_', 30));
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"{Name} :");
+            foreach(var item in q)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ResetColor();
+            Console.WriteLine(new string('_', 30));
+        }
     }
 }
