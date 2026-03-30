@@ -48,7 +48,56 @@
             //Players.Remove(200);
             //Helper.Print("Players after removing score 200", Players);
             #endregion
+            #region Q03
+           // Dictionary<string, string> PhoneBook = new();
+           // PhoneBook.Add("Alice", "123-456-7890");
+           // PhoneBook.Add("Bob", "987-654-3210");
+           // PhoneBook.Add("Charlie", "555-555-5555");
+           // PhoneBook.Add("Kareem", "551-666-4535");
+           // Helper.PrintDictionary("Phone Book", PhoneBook);
+           // PhoneBook["Zaid"] = "111-111-1111";// Add Zaid
+           //// Helper.Print("Phone Book after updating Alice's number", PhoneBook);
+           //try
+           // {
+           //     PhoneBook.Add("Ali", "222-222-2222");
+           //     PhoneBook.Add("Ali", "222-222-2222");
+           // }
+           // catch (ArgumentException ex)
+           // {
+           //     Console.WriteLine($"Error: {ex.Message}");
+           // }
 
+           // Helper.PrintDictionary("Phone Book after adding Ali", PhoneBook);
+
+           // bool Result01=PhoneBook.TryAdd("Rawan", "333-333-3333");
+           // Console.WriteLine($"Trying to add Rawan : {Result01}");
+           // bool Result02 = PhoneBook.TryAdd("Rawan", "333-333-3333");
+           // Console.WriteLine($"Trying to add Rawan again : {Result02}");
+
+           // if (PhoneBook.ContainsKey("Bale"))
+           // {
+           //     Console.WriteLine($"Bale's number is {PhoneBook["Bale"]}");
+           // }
+           // else
+           // {
+           //     Console.WriteLine($"There is no contact named Bale in the phone book.");
+           // }
+           // Console.WriteLine(PhoneBook.GetValueOrDefault("Eman", "Not Found"));//Not Found is the default value if Eman is not found in the dictionary
+
+           // Console.WriteLine(new string('_',15));
+           // Console.WriteLine("____Keys____");
+           // foreach (var key in PhoneBook.Keys)
+           // {
+           //     Console.Write("  "+key);
+           // }
+           // Console.WriteLine("\n____Values____");
+           // foreach (var value in PhoneBook.Values)
+           // {
+           //     Console.Write("  "+value);
+           // }
+           // Console.WriteLine("\n"+new string('_', 15));
+
+            #endregion
 
 
 
